@@ -1,0 +1,9 @@
+services:
+  apex:
+    build: ./apex
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENROUTER_API_KEY=## Replace with your actual API key
+      - OPENROUTER_SITE_URL=http://localhost:8501
+      - OPENROUTER_APP_NAME=Local-Apex
