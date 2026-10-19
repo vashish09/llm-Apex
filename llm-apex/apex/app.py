@@ -14,9 +14,9 @@ SITE_URL = os.getenv("OPENROUTER_SITE_URL", "http://localhost:8501")
 APP_NAME = os.getenv("OPENROUTER_APP_NAME", "APEX")
 
 DEFAULT_MODELS = [
-    "deepseek/deepseek-r1:free",
-    "meta-llama/llama-3-8b-instruct:free",
-    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3.5-lightning:free",
+    "poolside/laguna-s-2.1:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
     "openrouter/free",
 ]
