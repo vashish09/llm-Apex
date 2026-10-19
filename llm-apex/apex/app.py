@@ -13,12 +13,12 @@ API_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
 SITE_URL = os.getenv("OPENROUTER_SITE_URL", "http://localhost:8501")
 APP_NAME = os.getenv("OPENROUTER_APP_NAME", "APEX")
 
-DEFAULT_MODELS =DEFAULT_MODELS = [
-    "openai/gpt-4o-mini",
-    "google/gemini-2.0-flash-001",
-    "meta-llama/llama-3.1-8b-instruct",
-    "google/gemma-2-9b-it",  
-    "nvidia/nemotron-3-nano-30b-a3b:free",
+DEFAULT_MODELS = [
+    "deepseek/deepseek-r1-0528:free",
+    "meta-llama/llama-3.2-3b-instruct:free",
+    "qwen/qwen3-4b:free",
+    "google/gemma-3-4b-it:free",
+    "openrouter/free",
 ]
 
 st.set_page_config(page_title="APEX", layout="wide")
